@@ -7,7 +7,7 @@
   overflow: hidden;
   margin: -31px; 
   margin-left: -7px;
-  border: 6px solid rgba(240, 32, 35, 0.6); 
+  border: 6px solid rgba(25, 149, 173, 0.6); 
   border-radius: 50% !important;
 }
 
@@ -75,9 +75,9 @@
 .readme {
   position: relative;
   padding: 11px 35px;
-  background: rgba(240, 32, 35, 0.6);
-  color: #FFFFFF;
-  border: 2px solid #FFFFFF;
+  background: #A1D6E2;
+  color: #1995AD;
+  border: 2px solid #1995AD;
   font-weight: 600;
   font-size: 15px;
   letter-spacing: 1px;
@@ -89,8 +89,8 @@
   position: relative;
   padding: 11px 35px;
   background: none;
-  color: #FFFFFF;
-  border: 2px solid #FFFFFF;
+  color: #F1F1F2;
+  border: 2px solid #F1F1F2;
   font-weight: 600;
   font-size: 15px;
   letter-spacing: 1px;
@@ -100,8 +100,8 @@
 }
 
 .contactme:hover {
-  color: rgba(240, 32, 35, 0.6);
-  background-color: white;
+  color: #1995AD;
+  background-color: #F1F1F2;
 }
 
 body {
@@ -110,12 +110,12 @@ body {
 }
 
 a {
-  color: rgba(240, 32, 35, 0.6);
+  color: #1995AD;
 }
 
 blockquote {
-  border-left: 5px solid rgba(240, 32, 35, 0.6);
-  color: rgba(240, 32, 35, 0.6);
+  border-left: 5px solid #1995AD;
+  color: #1995AD;
   font-size: 125%;
   font-weight: 400;
   margin: 20px 0;
@@ -173,7 +173,7 @@ ul.side-nav li {
 
 ul.side-nav.fixed a {
   box-sizing: content-box;
-  color: rgba(240, 32, 35, 0.6);
+  color: #1995AD;
   display: block;
   line-height: 100%;
   padding: 10px 0 12px;
@@ -185,7 +185,7 @@ ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
 }
 
 ul.side-nav.fixed li.logo {
-  background-color: #fafafa;
+  background-color: #A1D6E2;
   border-bottom: 1px solid #ddd;
   box-sizing: content-box;
   min-height: 90px;
@@ -198,7 +198,7 @@ ul.side-nav.fixed li.logo a {
 }
 
 ul.table-of-contents li:not(.logo) a.active, ul.table-of-contents li:not(.logo) a:hover {
-  background-color: #fafafa;
+  background-color: #A1D6E2;
   border-left: 3px solid;
 }
 
@@ -241,12 +241,12 @@ h3 {
 }
 
 #intro.section {
-  background: rgba(240, 32, 35, 0.6) repeat;
+  background: #1995AD;
   position: relative;
 }
 
 #intro.section .container {
-  color: white;
+  color: #F1F1F2;
   font-weight: 200;
   left: 0;
   position: absolute;
@@ -260,7 +260,7 @@ h3 {
 }
 
 #intro.section .underline {
-  border-bottom: 5px solid #333;
+  border-bottom: 5px solid #F1F1F2;
 }
 
 #intro.section .teal {
@@ -293,12 +293,12 @@ h3 {
 
 .card li a {
   margin-right: 0;
-  color: rgba(240, 32, 35, 0.6);
-  border-bottom: 2px solid rgba(240, 32, 35, 0.6);
+  color: #1995AD;
+  border-bottom: 2px solid #1995AD;
 }
 
 .card li a:hover {
-  color: rgba(240, 32, 35, 0.6);
+  color: #1995AD;
   font-weight: 500;
 }
 
@@ -375,7 +375,7 @@ a.hoverline {
 }
 
 a.hoverline:hover {
-  border-bottom: 3px solid rgba(240, 32, 35, 0.6) !important;
+  border-bottom: 3px solid #1995AD !important;
 }
 
 #skills .card.large {
@@ -388,9 +388,7 @@ a.hoverline:hover {
   padding-bottom: 20px;
 }
 
-#skills .col img.responsive-img
-
- {
+#skills .col img.responsive-img {
   margin: 0 auto;
   max-height: 100px;
   padding-bottom: 10px;
@@ -401,7 +399,9 @@ a.hoverline:hover {
 
 .samsung_img {
   margin: 0 auto;
-  max-height: 80px !important;
+  max-height: 80px !important
+
+;
   padding-bottom: 10px;
   text-align: center;
   vertical-align: middle;
@@ -460,11 +460,11 @@ small {
 }
 
 .teal-text {
-  color: rgba(240, 32, 35, 0.6) !important;
+  color: #1995AD !important;
 }
 
 .teal {
-  background-color: rgba(240, 32, 35, 0.6) !important;
+  background-color: #1995AD !important;
 }
 
 @media (min-width: 1200px) {
@@ -485,7 +485,6 @@ small {
   .card ul li {
     line-height: 150%;
   }
-}
 
 @media (max-width: 992px) {
   main {
@@ -503,7 +502,7 @@ small {
     position: absolute;
   }
   nav a.button-collapse, nav a.button-collapse i {
-    color: rgba(240, 32, 35, 0.6);
+    color: #1995AD;
     height: 56px;
     line-height: 56px;
   }
