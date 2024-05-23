@@ -75,7 +75,7 @@
 .readme {
   position: relative;
   padding: 11px 35px;
-  background: #A1D6E2;
+  background: white;
   color: #1995AD;
   border: 2px solid #1995AD;
   font-weight: 600;
@@ -356,7 +356,8 @@ h3 {
 }
 
 .card .card-title {
-  font-size: 24px;
+  font-size: 22px;
+  font-weight: 700;
 }
 
 .card .card-content .card-title {
