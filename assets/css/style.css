@@ -72,6 +72,11 @@
   background-color: black;
 }
 
+.subheadings {
+  font-size: 24px;
+  color: lightcyan;
+}
+
 .readme {
   position: relative;
   padding: 11px 35px;

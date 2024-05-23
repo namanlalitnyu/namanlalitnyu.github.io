@@ -156,13 +156,13 @@
           <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
             <div class="caption">
               <h2>HI, I'M <span class="teal">NAMAN LALIT</span></h2>
-              <!-- <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:yellow"></span></h5> -->
-              <h4>MASTER'S STUDENT @ NEW YORK UNIVERSITY</h4>
-              <h4>Ex-SOFTWARE ENGINEER @ SALESFORCE</h4>
               <br>
-              <h5>Software engineer with a passion for developing innovative AI solutions to solve real-world challenges.</h5>
+              <!-- <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:yellow"></span></h5> -->
+              <h4 class="subheadings">MASTER'S STUDENT @ NEW YORK UNIVERSITY</h4>
+              <h4 class="subheadings">Ex-SOFTWARE ENGINEER @ SALESFORCE</h4>
+              <!-- <br>
+              <h5>Software engineer with a passion for developing innovative AI solutions to solve real-world challenges.</h5> -->
             </div>
-            <br>
             <div class="social">
               <a href="http://linkedin.com/in/namanlalit" target="_blank">
                 <button class="icon-btn linkedin">
@@ -410,37 +410,30 @@
       <h3 class="page-title white-text teal">Projects</h3>
       <div class="container">
         <div class="row">
-
+          
+          <!-- TickerTeller -->
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="music streaming app" src="/assets/img/RAG.png" style="height: 100%; width: 100%" class="activator" />
+                <img alt="music streaming app" src="/assets/img/tickerteller.png" style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Retrieval Augmented Generation<i
+                <span class="card-title activator teal-text hoverline">Ticker-Teller<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  RAG Academic Research Recommendation System
+                  Stock Prediction using LSTM and LLM
                 </p>
               </div>
               <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
                 <span class="card-title grey-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li><b>Tools:</b> ChromaDB, LangChain, Flask, Angular, Docker, Kubernetes</li>
-                  <li>Created a RAG recommendation system for academic research using 1000 articles on stock prediction.</li>
-                  <li>Deployed a Flask application on Google Kubernetes Engine.</li>
-                  <li>The app returns the top 3 similar articles, links, and summaries for user queries.</li>
+                  <li>Ensemble Machine Learning model that predicts the stock price of 12 companies based on the output of LSTM and sentiments of the news articles from the Wall Street Journal.</li>
+                  <li><b>Tools:</b> LSTM, OpenAI API, Prompt Engineering, LangChain, Python</li>
                 </ul>
                 <div class="card-action">
-                  <!-- <a aria-label="Visit " href="https://galvanic-music.herokuapp.com/" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a> -->
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/namanlalitnyu/Stock.ai"
-                    target="_blank" data-position="top" data-tooltip="View Source"
+                  <a aria-label="Visit the repo for project" href="https://github.com/namanlalitnyu/ticker-teller"
+                    target="_blank" data-position="top" data-tooltip="Vist Tickerteller"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-github"></i></a>
                 </div>
@@ -448,10 +441,42 @@
             </div>
           </div>
 
+          <!-- Stock.ai -->
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="quiz app" src="/assets/img/topic_modelling.png" style="height: 100%; width: 100%" class="activator" />
+                <img alt="music streaming app" src="/assets/img/RAG.png" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Stock.ai<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  RAG - Stock Research Recommendation System
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>Retrieval Augmented Generation system catered for the domain of academic research using 1000 articles on stock prediction.</li>
+                  <li>Deployed a Flask application on Virtual Machine using Docker which returns the top 3 similar articles, links, and summaries for user queries.</li>
+                  <li><b>Tools:</b> ChromaDB, LangChain, LLM, Flask, Angular, Docker, GCP</li>
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/namanlalitnyu/Stock.ai"
+                    target="_blank" data-position="top" data-tooltip="Vist Stock.ai"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Topic Modeling -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Topic Modelling app" src="/assets/img/topic_modelling.png" style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
                 <span class="card-title activator teal-text hoverline">Topic Modelling<i
@@ -461,30 +486,55 @@
                 </p>
               </div>
               <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
                 <span class="card-title grey-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li><b>Tools:</b> K-Means, TF-IDF, PCA, BERT, Word2vec, Prompt Engineering </li>
                   <li>Employed K-Means clustering to organize 32 research articles into thematic groups</li>
                   <li>Enhanced understanding through Prompt Engineering and OpenAI api for accurate topic representations</li>
-
+                  <li><b>Tools:</b> K-Means, TF-IDF, PCA, BERT, Word2vec, Prompt Engineering </li>
                 </ul>
                 <div class="card-action">
-                  <!-- <a aria-label="Visit " href="https://quiz-up-app.herokuapp.com/" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a> -->
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/namanlalitnyu/Topic-Modelling"
-                    target="_blank" data-position="top" data-tooltip="View Source"
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/namanlalitnyu/Topic-Modeling-using-KMeans"
+                    target="_blank" data-position="top" data-tooltip="View Project"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-github"></i></a>
                 </div>
               </div>
             </div>
           </div>
-          <!-- Flask Project -->
+
+          <!-- MNIST Deployment -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="MNIST Deployment app" src="/assets/img/mnist.png" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">MNIST on Kubernetes<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  MNIST model deployed on Google Kubernetes Engine
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>Created a Flask application that performs inference on the MNIST model.</li>
+                  <li>The Application is deployed on the Google Kubernetes Engine using PVC, Pods, Kubectl.</li>
+                  <li><b>Tools:</b> GKE, GCP, Docker, Flask, Python, HTML, Pytorch</li>
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/namanlalitnyu/Mnist-Model-Deployment-Kubernetes"
+                    target="_blank" data-position="top" data-tooltip="View Project"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CNN Performance Optimisation -->
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
@@ -495,7 +545,7 @@
                 <span class="card-title activator teal-text hoverline">CNN Performance Optimization<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  CNN Model Optimization and Performance Analysis on Nvidia GPU (A-100, V-100)
+                  CNN Model Optimization and Performance Analysis on Nvidia GPUs (A-100, V-100)
                 </p>
               </div>
               <div class="card-reveal">
@@ -507,87 +557,9 @@
                   <li><b>Tools:</b> CUDA, PyTorch, Nvidia GPUs (A100, V100), Nsight Compute</li>
                   <li>Optimized batch sizes for ResNet-50, VGG-16, and MobileNetV2 on Nvidia GPUs</li>
                   <li>Improved FLOPS and memory bandwidth by 23.65% using theoretical and empirical data.</li>
-
-
-
                 </ul>
                 <div class="card-action">
-                  <!-- <a aria-label="Visit Blog website" href="https://flask-heroku-blog.herokuapp.com/" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a> -->
                   <a aria-label="Visit the GitHub repo for  project" href="https://github.com/namanlalitnyu/CNN-PERF-ESTIMATION"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- VQA -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/blockchain.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Ethereum based blockchain<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  Ethereum blockchain functionality in C++ with SHA-256
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title teal-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li>Developed Ethereum blockchain functionalities in C++, creating transactions, blocks, and blockchain
-                    structures.Employed SHA-256 encoding for cryptographic operations
-                    embeddings.</li>
-                  <!-- <li>Tested the model on the COCO dataset, abstract scenes images, and got 69% overall accuracy on the
-                    VQA evaluation metric.</li> -->
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project"
-                    href="https://github.com/namanlalitnyu/Crypto" target="_blank"
-                    data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Video Summarizer -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/e-commerce.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">FLIPMART<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  E-commerce site using Django and React.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title brown-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li>Built an E-commerce site with Django for the backend and React JS for the frontend.</li>
-                  <li>Analyzed performance metrics, yielding a 30% boost in response time; achieved a swift 180 ms response time via targeted optimizations.</li>
-                  <li>Seamlessly integrated RESTful APIs for enhanced frontend-backend communication, optimizing overall website functionality..</li>
-                </ul>
-                <!-- TODO: UPLOAD THIS PROJECT ON GITHUB -->
-                <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/namanlalitnyu/Flipmart"
                     target="_blank" data-position="top" data-tooltip="View Source"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-github"></i></a>
@@ -779,7 +751,7 @@
                 <img alt="" src="/assets/img/pytorch-logo.png" class="responsive-img" />PyTorch
               </div>
               <div class="col s4 m2">
-                <img alt="" src="/assets/img/matplotlib-logo-1.svg" class="responsive-img" />Matplotlib
+                <img alt="" src="/assets/img/matplotlib.png" class="responsive-img" />Matplotlib
               </div>
             </div>
           </div>
