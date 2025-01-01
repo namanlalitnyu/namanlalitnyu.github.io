@@ -29,6 +29,11 @@
   border-radius: 5%;
 }
 
+.skills-logo {
+  object-fit: cover;
+  border-radius: 5%;
+}
+
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 .social {
   margin: 0 auto;
