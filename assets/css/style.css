@@ -22,11 +22,11 @@
   right: 0;
 }
 
-.logo {
+.nyu-logo {
   width: 60px;
   height: 60px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 5%;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
